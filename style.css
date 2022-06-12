@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/*****************************************/
+/* CSS Document for the By Nadija Website*/
+/* Nadija Mucic */
+/*****************************************/
+
+/* Defaults */
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Krona One' , sans-serif;
+	background: #E2ECF2;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100vh;
+	margin: auto;
+}
+
+
+/*Header */
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 24px 28px;
+	border-bottom: 2px solid black;
+	margin-bottom: 20px;
+}
+
+header h1 {
+	font-size: 27px;
+	text-transform: uppercase;
+	color: #191919;
+}
+
+header ul {
+	font-size: 16px;
+	color: #191919;
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline-block;
+	letter-spacing: 2px;
+	margin-left: 10px;
+}
+
+#nav li:hover {
+	color: #757575;
+}
+
+/* Hero */
+
+#hero {
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 133px;
+	padding-bottom: 222px;
+	background-image: url("Images/hero-img.jpg");
+	background-size: 540px 700px;
+	background-repeat: no-repeat;
+	background-position: 580px 70px;
+}
+
+#hero-grid {
+	display: flex;
+}
+
+#hero h1 {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+#hero h1:hover {
+	color: #191919;
+}
+
+#hero h2 {
+	font-size: 67px;
+	text-transform: uppercase;
+	margin-top: 32px;
+	margin-bottom: 24px;
+	letter-spacing: 1.5px;
+}
+
+#hero h1 span {
+	margin-left: 10px;
+	font-size: 14px;
+	color: #464646;
+	text-transform: uppercase;
+}
+
+#hero p {
+	margin-bottom: 67px;
+	color: #464646;
+}
+
+#hero button {
+	text-transform: uppercase;
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	font-family: 'Krona One' , sans-serif;
+	width: 260px;
+	height: 65px;
+	border-radius: 40px;
+}
+
+#hero button:hover {
+	background-color: #464646;
+	transition: all 0.3s ease;
+}
+
+
+/* CSS Grid */
+
+.css-heading {
+	margin-top: 150px;
+	margin-bottom: 60px;
+	padding: 34px 28px;
+	border-top: 2px solid #000000;
+	text-transform: uppercase;
+}
+
+#css-grid h1 {
+	font-size: 35px;
+	margin-bottom: 2%;
+}
+
+#css-grid h3 {
+	font-size: 16px;
+	color: #757575;
+	letter-spacing: 1px;
+	padding-bottom: 0.5%;
+}
+
+#css-grid h2 {
+	font-size: 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+	grid-gap: 10px;
+	justify-content: space-evenly;
+    margin: auto;
+    width: 97%;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+.grid-container img {
+	border: 3px dotted #8FAACA;
+	width: 100%;
+	height: 100%;
+}
+
+/*Footer */
+
+#footer {
+	margin-top: 80px;
+	margin-right: 24px;
+	margin-left: 24px;
+}
+
+.footer-row {
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+#footer h3 {
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #757575;
+	letter-spacing: 1px;
+}
+#footer ul {
+	list-style: none;
+	letter-spacing: -1px;
+}
+
+#footer li {
+	text-decoration: none;
+	font-size: 18px;
+	margin-bottom: 24px;
+}
+
+.footer-left {
+	text-align: center;
+	border-right: 2px solid black;
+	align-items: flex-start;
+	flex: 0.5
+}
+
+.footer-right {
+	text-align: center;
+	align-items: flex-start;
+	flex: 0.5;
+}
+
+.footer-copyright {
+	flex: 1 100%;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	text-align: center;
+	color: #757575;
+	border-top: 2px solid black;
+	padding-top: 1%;
+}
+
+/*********** End of CSS Document ***********/
+
+
